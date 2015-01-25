@@ -1,6 +1,7 @@
 ## courseproject
 
 #Reads files
+
 test_subjects <- read.table("UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 test_x <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
 test_y <- read.table("UCI HAR Dataset/test/Y_test.txt", header = FALSE)
