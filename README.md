@@ -1,6 +1,6 @@
 ## courseproject
 
-##Reads files
+#Reads files
 test_subjects <- read.table("UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 test_x <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
 test_y <- read.table("UCI HAR Dataset/test/Y_test.txt", header = FALSE)
@@ -9,7 +9,7 @@ train_subjects <- read.table("UCI HAR Dataset/train/subject_train.txt", header =
 train_x <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE)
 train_y <- read.table("UCI HAR Dataset/train/Y_train.txt", header = FALSE)
 
-##Merges the training and the test sets to create one data set.
+#Merges the training and the test sets to create one data set.
 activity <- rbind(train_y, test_y)
 features <- rbind(train_x, test_x)
 subject <- rbind(train_subjects, test_subjects)
