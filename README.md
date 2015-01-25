@@ -16,5 +16,5 @@ The purpose of this project is to demonstrate your ability to collect, work with
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 ##Description of files
-run_analysys.R - is the script to be run in R.
-CodeBook.md - shows all the information about the data.
+- run_analysys.R - is the script to be run in R.
+- CodeBook.md - shows all the information about the data.
