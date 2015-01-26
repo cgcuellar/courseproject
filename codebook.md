@@ -1,5 +1,3 @@
-# Introduction
-
 The script `run_analysis.R`performs the 5 steps described in the course project's definition.
 
 * First, get the data.
@@ -29,9 +27,10 @@ The script `run_analysis.R`performs the 5 steps described in the course project'
   - Subset the data frame Data by seleted names of Features:
     sel_features,
     all_data(subset)
+- Read descriptive activity names from “activity_labels.txt”
 * Uses descriptive activity names to name the activities in the data set
-  - Read descriptive activity names from “activity_labels.txt”
-  - facorize Variale activity in the data frame Data using descriptive activity names
+  - facorize variale activity in the data frame all_data using descriptive activity names:
+    factor function is used.
 * Appropriately labels the data set with descriptive variable names
   prefix t is replaced by time
   Acc is replaced by Accelerometer
