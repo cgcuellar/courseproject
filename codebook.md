@@ -32,11 +32,11 @@ The script `run_analysis.R`performs the 5 steps described in the course project'
   - facorize variale activity in the data frame all_data using descriptive activity names:
     factor function is used.
 * Appropriately labels the data set with descriptive variable names
-  prefix t is replaced by time
-  Acc is replaced by Accelerometer
-  Gyro is replaced by Gyroscope
-  prefix f is replaced by frequency
-  Mag is replaced by Magnitude
-  BodyBody is replaced by Body
+  - prefix t is replaced by time
+  - Acc is replaced by Accelerometer
+  - Gyro is replaced by Gyroscope
+  - prefix f is replaced by frequency
+  - Mag is replaced by Magnitude
+  - BodyBody is replaced by Body
 * Creates a second,independent tidy data set and ouput it
   - Package "plyr" is used.
